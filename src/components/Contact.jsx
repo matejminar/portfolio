@@ -2,8 +2,8 @@ import React from "react"
 
 export const Contact = () => {
   return (
-    <section className="max-w-4xl py-16 px-2 mx-auto">
-      <p className="text-3xl text-grey text-center">
+    <section className="max-w-4xl py-16 pb-20 px-3 mx-auto">
+      <p className="text-2xl md:text-3xl text-grey text-center">
         I'd be more than happy to chat with you about joining your team. Shoot
         me an email at{" "}
         <a
