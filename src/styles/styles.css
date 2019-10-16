@@ -1,0 +1,26 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.skewed-background {
+  background: transparent;
+  overflow: hidden;
+  padding-top: 500px;
+  margin-top: -500px;
+  position: relative;
+}
+.skewed-background > * {
+  position: relative;
+}
+.skewed-background:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 600px;
+  height: 6000px;
+  background: #f6f9fc;
+  transform: skew(0, -12deg);
+}
