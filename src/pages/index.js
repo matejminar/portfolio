@@ -1,5 +1,6 @@
 import React from "react"
 import SEO from "../components/seo"
+import { CompanyLogos } from "../components/CompanyLogos"
 import "../styles/tailwind.css"
 
 const LandingPage = () => (
@@ -16,6 +17,10 @@ const LandingPage = () => (
         opportunities. In the past, I had the pleasure of working on products
         for following companies:
       </p>
+    </section>
+
+    <section className="flex items-center justify-center flex-wrap">
+      <CompanyLogos />
     </section>
   </>
 )
