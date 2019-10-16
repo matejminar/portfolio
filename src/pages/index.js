@@ -10,7 +10,7 @@ import "../styles/styles.css"
 
 const LandingPage = () => (
   <>
-    <SEO title="Home" />
+    <SEO title="Portfolio" />
 
     <DecorativeStripes />
 
