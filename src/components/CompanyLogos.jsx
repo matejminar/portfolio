@@ -7,183 +7,183 @@ export const CompanyLogos = () => {
     query {
       mcdonalds: file(relativePath: { eq: "companies/mcdonalds.png" }) {
         childImageSharp {
-          fixed(height: 100) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 100) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       omv: file(relativePath: { eq: "companies/omv.jpg" }) {
         childImageSharp {
-          fixed(height: 80) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 80) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       volkswagen: file(relativePath: { eq: "companies/volkswagen.png" }) {
         childImageSharp {
-          fixed(height: 80) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 80) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       adidas: file(relativePath: { eq: "companies/adidas.png" }) {
         childImageSharp {
-          fixed(height: 100) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 100) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       o2: file(relativePath: { eq: "companies/o2.png" }) {
         childImageSharp {
-          fixed(height: 90) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 90) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       tatratea: file(relativePath: { eq: "companies/tatratea.jpg" }) {
         childImageSharp {
-          fixed(height: 110) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 110) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       websupport: file(relativePath: { eq: "companies/websupport.png" }) {
         childImageSharp {
-          fixed(height: 100) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 100) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       sme: file(relativePath: { eq: "companies/sme.png" }) {
         childImageSharp {
-          fixed(height: 70) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 70) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       jt: file(relativePath: { eq: "companies/j&t.png" }) {
         childImageSharp {
-          fixed(height: 130) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 130) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       gate: file(relativePath: { eq: "companies/gate.png" }) {
         childImageSharp {
-          fixed(height: 130) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 130) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       rajo: file(relativePath: { eq: "companies/rajo.png" }) {
         childImageSharp {
-          fixed(height: 100) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 100) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       postova: file(relativePath: { eq: "companies/postova.png" }) {
         childImageSharp {
-          fixed(height: 100) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 100) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       csob: file(relativePath: { eq: "companies/csob.png" }) {
         childImageSharp {
-          fixed(height: 80) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 80) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       eduscho: file(relativePath: { eq: "companies/eduscho.png" }) {
         childImageSharp {
-          fixed(height: 80) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 80) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       preto: file(relativePath: { eq: "companies/preto.png" }) {
         childImageSharp {
-          fixed(height: 80) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 80) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       markiza: file(relativePath: { eq: "companies/markiza.png" }) {
         childImageSharp {
-          fixed(height: 90) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 90) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       yit: file(relativePath: { eq: "companies/yit.png" }) {
         childImageSharp {
-          fixed(height: 90) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 90) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       pilsner: file(relativePath: { eq: "companies/pilsner.png" }) {
         childImageSharp {
-          fixed(height: 100) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 100) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       sse: file(relativePath: { eq: "companies/sse.png" }) {
         childImageSharp {
-          fixed(height: 100) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 100) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       grape: file(relativePath: { eq: "companies/grape.png" }) {
         childImageSharp {
-          fixed(height: 60) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 60) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       vinea: file(relativePath: { eq: "companies/vinea.png" }) {
         childImageSharp {
-          fixed(height: 90) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 90) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       hbreavis: file(relativePath: { eq: "companies/hbreavis.png" }) {
         childImageSharp {
-          fixed(height: 50) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 50) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       dennikn: file(relativePath: { eq: "companies/dennikn.jpg" }) {
         childImageSharp {
-          fixed(height: 80) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 80) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       pantarhei: file(relativePath: { eq: "companies/pantarhei.jpg" }) {
         childImageSharp {
-          fixed(height: 100) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 100) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       kontentino: file(relativePath: { eq: "companies/kontentino.png" }) {
         childImageSharp {
-          fixed(height: 50) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 50) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       up: file(relativePath: { eq: "companies/up.png" }) {
         childImageSharp {
-          fixed(height: 80) {
-            ...GatsbyImageSharpFixed
+          fluid(maxHeight: 80) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -194,8 +194,8 @@ export const CompanyLogos = () => {
     <section className="flex items-center justify-center flex-wrap px-1 opacity-75">
       {Object.entries(logos).map(logo => {
         return (
-          <div key={logo[0]} className="py-3 px-5">
-            <Img fixed={logo[1].childImageSharp.fixed} />
+          <div key={logo[0]} className="py-3 px-5 text-center md:w-1/9 w-1/3">
+            <Img fluid={logo[1].childImageSharp.fluid} />
           </div>
         )
       })}

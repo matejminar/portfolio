@@ -1,6 +1,10 @@
 module.exports = {
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        "1/9": "11.11111%",
+      },
+    },
     colors: {
       white: "#ffffff",
       purple: "#6772e5",
