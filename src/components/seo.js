@@ -55,7 +55,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: site.siteMetadata.image,
+          content: site.siteMetadata.url + site.siteMetadata.image,
         },
         {
           property: `og:url`,
@@ -79,7 +79,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:image`,
-          content: site.siteMetadata.image,
+          content: site.siteMetadata.url + site.siteMetadata.image,
         },
       ].concat(meta)}
     />
