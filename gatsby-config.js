@@ -3,6 +3,8 @@ module.exports = {
     title: `Matej Minar`,
     description: `I am a javascript engineer who loves building beautiful and intuitive UIs. This is my portfolio website.`,
     author: `Matej Minar`,
+    image: `/matej-minar-og-image.png`,
+    url: `https://www.minar.dev`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
