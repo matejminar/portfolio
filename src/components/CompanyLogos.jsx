@@ -191,7 +191,7 @@ export const CompanyLogos = () => {
   `)
 
   return (
-    <section className="flex items-center justify-center flex-wrap px-1 opacity-75">
+    <section className="container mx-auto flex items-center justify-center flex-wrap px-1 opacity-75">
       {Object.entries(logos).map(logo => {
         return (
           <div key={logo[0]} className="py-3 px-5 text-center md:w-1/9 w-1/3">
